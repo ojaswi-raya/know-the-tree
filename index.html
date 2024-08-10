@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Know the tree</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/logo.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div id="welcome-message">
+            <img src="assets/logo.png" alt="Your Logo" id="logo">
+            <h1>Welcome to the Know the Tree Game!</h1>
+            <p>Pick a tree and watch it grow from a tiny seedling to a big, strong tree! Learn how to water, care for, and help your tree thrive. It’s fun and easy—let’s start growing together!            </p>
+            <button id="start-button" class="cute-button">Start</button>
+        </div>
+
+        <div id="select-tree" style="display:none;">
+            <h2>Select the type of tree:</h2>
+            <select id="tree-type">
+                <option value="oak">Oak 🌳</option>
+                <option value="maple">Maple 🍁</option>
+                <option value="pine">Pine 🌲</option>
+                <option value="willow">Willow 🌿</option>
+                <option value="cherry">Cherry Blossom 🌸</option>
+                <option value="redwood">Redwood 🌲</option>
+                <option value="baobab">Baobab 🌳</option>
+                <option value="eucalyptus">Eucalyptus 🌿</option>
+                <option value="mango">Mango 🥭</option>
+                <option value="cedar">Cedar 🌲</option>
+            </select>
+            <button id="go-button" class="cute-button">Go</button>
+        </div>
+
+        <div id="game-area" style="display:none;">
+            <h3 id="stage-name">Seedling Stage</h3>
+            <img id="tree-img" src="" alt="Tree Image">
+            <p id="instructions"></p>
+            <div id="instruction-box">
+                <p id="instructions-info">Instructions will appear here.</p>
+                <p id="instructions-caution">Cautions will appear here.</p>
+            </div>
+
+            <div id="button-area">
+                <button id="plant-button" class="cute-button">🌱</button>
+                <button id="water-button" class="cute-button">💧</button>
+                <button id="prune-button" class="cute-button">✂️</button>
+                <button id="mulch-button" class="cute-button">🍂</button>
+            </div>
+        </div>
+
+        <div id="educational-content" style="display:none;">
+            <h2>Know Me:</h2>
+            <div id="tree-info"></div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
