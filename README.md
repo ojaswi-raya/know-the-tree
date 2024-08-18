@@ -11,8 +11,11 @@ Welcome to the Tree Growth Guide project! 🌳🌟 This project is designed to h
 3)Visuals: Enjoy clear and colorful visuals to make learning fun!
 
 # How to Use:
+
 1)Explore: Browse through the tree stages to see what your tree needs.
+
 2)Learn: Read the easy-to-understand descriptions about each tree.
+
 3)Care: Follow the simple care tips to help your tree grow strong and healthy.
 
 # Getting Started:
